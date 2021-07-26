@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOVE CALCULATOR </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+   <style>
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url('Cute Little Baby Boy And Girl In Love HD Wallpaper-1366x768-bestlovehdwallpapers.blogspot.com.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+
+    header{
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+   </style>
+
+</head>
+<body>
+    <HEader>
+        <div class="card w-50 m-auto text-center">
+            <div class="card-header bg-danger text-white">LOVE CALCULATOR</div>
+            <div class="card-body">
+                <div class="form-inline w-75 m-auto">
+                    <div class="form-group text-center">
+                        <input type="text"name="" id="aman" class="form-control text-center" placeholder="Your Name">
+                    </div>
+                    <div> <span class="p1-4 w-75 pr-4 pl-4 m-auto"> + </span></div>
+                    <div class="form-group">
+                        <input type="text"name="" id="aman1" class="form-control text-center" placeholder="Love Name">
+                    </div>
+                </div>
+                <br>
+                <div class="w-75 m-auto">
+                    <button class="btn btn-success w-50" onclick="checkloveper()"> CLICK HERE</button>
+
+                </div>
+                <br>
+                <div>
+                    <input type="text"name="" id="lovevalue" class="form-control text-center w-25 m-auto"placeholder="Love %">
+                </div>
+            </div>
+            <div class="card-footer">GOD BLESS YOUR RELATIONSHIP</div>
+          </div>
+    </HEader>
+    <script>
+        function checkloveper(){
+            alert(document.getElementById('aman').value);
+            alert(document.getElementById('aman1').value);
+
+
+            var lovedata= Math.random()*100;
+            lovedata=Math.floor(lovedata);
+            document.getElementById('lovevalue').value=lovedata +"%";
+            
+                 } 
+
+
+        
+
+        
+    </script>
+    
+</body>
+</html>
